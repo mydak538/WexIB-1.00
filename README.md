@@ -1,39 +1,21 @@
-# WexIB v4.51
+The Unlicense  
+This is free and unencumbered software released into the public domain.
 
-## 📖 Описание
-**WexIB** — это минималистичный BIOS, написанный на Assemler,C без использования внешних библиотек.  
-Он содержит ключевые функции настоящего BIOS: загрузку ОС, работу с CMOS, IDE, клавиатурой и видеопамятью.  
-Проект создан для обучения и экспериментов с архитектурой x86 и низкоуровневым кодом.
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software,
+either in source code form or as a compiled binary, for any purpose, commercial or non-commercial,
+and by any means.
 
----
+In jurisdictions that recognize copyright laws, the author or authors of this software
+dedicate any and all copyright interest in the software to the public domain.
+We make this dedication for the benefit of the public at large and to the detriment
+of our heirs and successors. We intend this dedication to be an overt act of relinquishment
+in perpetuity of all present and future rights to this software under copyright law.
 
-## ⚙️ Возможности
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-- 💾 **Работа с дисками (IDE PIO)**
-  - Чтение секторов через LBA  
-  - Проверка загрузочного сектора (`0xAA55`)  
-  - Загрузка boot-сектора по адресу `0x7C00`
-
-- ⚙️ **Настройки (Settings)**
-  - Boot Priority  
-  - Update BIOS  
-  - Load Defaults / Save & Exit  
-  - Exit Without Save
-
-- 🧰 **Тест оборудования**
-  - Проверка памяти  
-  - Тест CPU  
-  - Тест клавиатуры и видео  
-  - Сохранение ошибок в CMOS
-
-- 💽 **Работа с CMOS**
-  - Чтение и запись параметров  
-  - Контрольная сумма  
-  - Автосброс при повреждении
-
-- 🖥 **Видео и интерфейс**
-  - VGA Text Mode (`0xB8000`)  
-  - Цветные строки, курсор, стрелки  
-  - Навигация: ↑ ↓ Enter Esc
-
----
+For more information, please refer to <https://unlicense.org>

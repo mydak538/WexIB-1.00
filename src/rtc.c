@@ -1,4 +1,4 @@
-#include "watch.h"
+#include "rtc.h"
 #include "console.h"
 #include "cpu.h"
 

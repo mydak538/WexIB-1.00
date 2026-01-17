@@ -57,7 +57,7 @@
 #define CMOS_HW_ERROR_COUNT 0x23
 
 // Информация о системе
-#define BIOS_VERSION "1.53.1"
+#define BIOS_VERSION "1.53.2"
 #define BIOS_YEAR 2026
 #define BIOS_DATE "Jan 9 2025"
 #define SERIAL_NUMBER "WX-386-BIOS-053"
@@ -1740,3 +1740,4 @@ int strcmp(const char* s1, const char* s2) {
     }
     return *(const unsigned char*)s1 - *(const unsigned char*)s2;
 }
+

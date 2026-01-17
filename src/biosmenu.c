@@ -1,6 +1,5 @@
 #include <stdint.h>
 #include "post.h"
-#include "console.h"
 #include "efficiency.h"
 #include "cpu.h"
 
@@ -154,10 +153,9 @@ const menu_item_t menu_items[] = {
     {"\4 Security     ", security_menu},
     {"\4 Information", config_screen},
     {"\4 USB Boot     ", boot_from_usb}, 
-   {"\4 Dev Tools    ", dev_tools_menu},
 };
 
-const int menu_items_count = 7;
+const int menu_items_count = 6;
 
 // Названия загрузочных устройств
 const char* boot_device_names[] = {
